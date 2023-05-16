@@ -38,6 +38,16 @@ a:hover {
     padding-bottom: 1rem;
 }
 
+@media (min-width: 600px) {
+    .site-header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
 .header1 img {
     width: 50%;
     margin-left: 25%;
